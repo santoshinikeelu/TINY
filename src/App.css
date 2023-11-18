@@ -1,0 +1,58 @@
+img{
+    height: 100px;
+   
+}
+.icon-logo{
+    height: 25px;
+    
+    
+  
+}
+header{
+    background-color: white;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1264px;
+    max-height: 84px;
+    margin: 0 auto;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-weight: bolder;
+    color: black;
+ 
+}
+button{
+    all: unset;
+    padding: 2px 25px;
+    background-color: rgb(10, 7, 87);
+    height: 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 85vh; /* Set the body to fill the viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+      flex: 1;
+  }
+footer{
+    background-color:rgb(10, 7, 87);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
